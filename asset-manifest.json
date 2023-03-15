@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kundan-gupta/static/css/main.487552ad.css",
+    "main.js": "/kundan-gupta/static/js/main.1613b25b.js",
+    "static/js/787.3ddf1f1c.chunk.js": "/kundan-gupta/static/js/787.3ddf1f1c.chunk.js",
+    "static/media/me.jpg": "/kundan-gupta/static/media/me.dc74c982c6a2d155a3fb.jpg",
+    "index.html": "/kundan-gupta/index.html",
+    "main.487552ad.css.map": "/kundan-gupta/static/css/main.487552ad.css.map",
+    "main.1613b25b.js.map": "/kundan-gupta/static/js/main.1613b25b.js.map",
+    "787.3ddf1f1c.chunk.js.map": "/kundan-gupta/static/js/787.3ddf1f1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.487552ad.css",
+    "static/js/main.1613b25b.js"
+  ]
+}
