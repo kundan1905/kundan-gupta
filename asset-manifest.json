@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kundan-gupta/static/css/main.a7997db9.css",
+    "main.css": "/kundan-gupta/static/css/main.8143a376.css",
     "main.js": "/kundan-gupta/static/js/main.1613b25b.js",
     "static/js/787.3ddf1f1c.chunk.js": "/kundan-gupta/static/js/787.3ddf1f1c.chunk.js",
     "static/media/me.jpg": "/kundan-gupta/static/media/me.dc74c982c6a2d155a3fb.jpg",
     "index.html": "/kundan-gupta/index.html",
-    "main.a7997db9.css.map": "/kundan-gupta/static/css/main.a7997db9.css.map",
+    "main.8143a376.css.map": "/kundan-gupta/static/css/main.8143a376.css.map",
     "main.1613b25b.js.map": "/kundan-gupta/static/js/main.1613b25b.js.map",
     "787.3ddf1f1c.chunk.js.map": "/kundan-gupta/static/js/787.3ddf1f1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7997db9.css",
+    "static/css/main.8143a376.css",
     "static/js/main.1613b25b.js"
   ]
 }
