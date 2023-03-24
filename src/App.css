@@ -1,0 +1,439 @@
+header{
+  position: relative;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #dce1e4;
+}
+.logo{
+  display: flex;
+  top: 20px;
+  left: 20px;
+  color:#567189;
+  position: absolute;
+  }
+.header_main{
+  display: flex;
+  float: right;
+  padding:10px ;
+  margin: 5px;
+}
+.header_main a{
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color:#ff014f;
+}
+.header_main a:hover{
+  color:#ff014f;
+}
+.main{
+  height: auto;
+  position: relative;
+  bottom: 1vh;
+}
+.about_contain{
+  margin-top: 25px;
+
+  height: auto;
+}
+.row{
+  display: flex;
+  margin: 20px;
+  padding: 5px;
+  height: auto;
+justify-content:space-evenly;
+}
+.colm-1{
+  display: flex;
+  flex-basis: 30%;
+  margin: 4px;
+  min-height: 350px;
+  position: relative;
+  min-width: 20vh;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+
+}
+.colm-2{
+  display: flex;
+  flex-basis: 50%;
+  margin-left: 20px;
+  min-height: 40vh;
+  position: relative;
+  top:10px;
+ color: #ff014f;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  height: 480px;
+  width: 60vh;
+  border-radius: 10px;
+
+}
+
+
+.colm-3,.colm-3-1,.colm-3-2{
+  
+  height: auto;
+  
+ 
+  position: relative;
+  
+  color: #ff014f;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+justify-content: space-around;
+align-items: center;
+height: 100px;
+bottom: 10px;
+
+  
+  width: 90%;
+
+}
+
+.colm-2 img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  
+
+  transition:  0.4s  ease-in-out;
+  
+}
+
+.colm-2 img:hover{
+  transform: scale(1.02);
+  overflow:  hidden;
+}
+
+.colm-1:hover{
+  transform : translateY(-6px);
+  transition: 0.6s ease;
+
+}
+
+
+@media only screen and (max-width:600px){
+
+  .row{
+    
+    flex-direction: column;
+    left: 3px;
+    
+  }
+  .colm-2,.colm-1{
+    flex: 1;
+    height: 300px;
+    margin-left: 0;
+    width: 100%;
+    
+  }
+  
+}
+@media only screen and (max-width:800px){
+
+  .row{
+    
+    flex-direction: column;
+    left: 3px;
+    
+  }
+  .colm-2,.colm-1{
+    flex: 1;
+    height: 300px;
+    margin-left: 0;
+    width: 100%;
+    
+  }
+  
+}
+@media only screen and (max-width:450px){
+
+  .row{
+    
+    flex-direction: column;
+    left: 3px;
+    
+  }
+  .colm-2,.colm-1{
+    flex: 1;
+    height: 300px;
+    margin-left: 0;
+    width: 100%;
+    
+  }
+  
+}
+@media only screen and (max-width:300px){
+
+  .row{
+    
+    flex-direction: column;
+    left: 3px;
+    
+  }
+  .colm-2,.colm-1{
+    flex: 1;
+    height: 300px;
+    margin-left: 0;
+    width: 100%;
+    overflow: auto;
+    
+  }
+  
+}
+.user-info{
+  padding: 20px;
+  margin-top: 5px;
+}
+.title div{
+  color: #ff014f;
+}
+.title{
+  font-size: 45px;
+  font-family: m;
+}
+.info{
+  padding: 2px;
+  margin: 2px;
+}
+.info span{
+  padding: 2px;
+  margin: 2px;
+  font-size: 20px;
+  font-family: "Inter",sans-serif;
+  font-weight: 500;
+
+}
+.fa-envelope,.fa-location-dot{
+  color: #ff014f;
+  font-size: 18px;
+}
+.fa-user{
+  color:black;
+}
+.user::before{
+  content: "";
+  position: absolute;
+  transition:0.4s;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 16px;
+  left: 8px;
+  background:#ff014f;
+  opacity: 0.7;
+  z-index: 1;
+}
+.user::after{
+  content: "";
+  position: absolute;
+  transition: 0.4s;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 36px;
+  left: 28px;
+  background:#ff014f;
+  opacity: 0.2;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+.img_container{
+  position:absolute;
+   left: 9px;
+  
+}
+.img_container img{
+  display: block;
+  height:150px;
+ width: 150px;
+object-fit: contain;
+
+}
+.about_contain h1{
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+  color:black;
+  transition-delay: 3s;
+  transition-duration: 3s;
+
+}
+.row1{
+  display: flex;
+  position: relative;
+ left: 12rem;
+  top: 20px;
+  padding: 10px;
+  margin: 20px;
+  justify-content: space-around;
+  width: 70%;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  align-items: center;
+  min-height: 150px;
+  transform: 1s ease;
+ 
+
+
+}
+@keyframes amination1 {
+  from{
+    margin-left: 100px;
+    transform: scale(0);
+
+  }
+  to{
+  margin-left: 10px;
+  transform: scale(1);
+  }
+  
+}
+@-webkit-keyframes amination1 {
+  from{
+    margin-left: 100px;
+    transform: scale(0);
+  }
+  to{
+    margin-left: 10px;
+    transform: scale(1);
+  }
+  
+}
+@media only screen and (max-width:450px){
+
+  .row1{
+    
+    flex-direction: column;
+    position: relative;
+    min-height: 200px;
+    left: 1vh;
+    width: 80%;
+    
+  }
+  .img_container {
+  position: relative;
+  
+  top:3rem;
+  
+  }
+  .info span{
+    
+    font-size: 12px;
+    font-family: "Inter",sans-serif;
+   
+  }
+  .about_contain h1{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width:600px){
+
+  .row1{
+    
+    flex-direction: column;
+    position: relative;
+    min-height: 200px;
+    left: 1vh;
+    width: 80%;
+    border-radius: 2px;
+    
+    
+  }
+  .header_main a{
+    display:none;
+  }
+  .img_container{
+
+    transform: translate(0,-3rem);
+  }
+}
+@media only screen and (max-width:780px){
+
+  .row1{
+    
+    flex-direction: column;
+    position: relative;
+    min-height: 200px;
+    left: 1vh;
+    width: 80%;
+    border-radius: 2px;
+    
+  }
+ 
+  .img_container{
+
+    transform: translate(0,-3rem);
+  }
+  .about_contain h1{
+    font-size: 20px;
+  }
+}
+.edu_info {
+  color: #ff014f;
+  
+  left: 30px;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  -webkit-animation: amination1 0.5s;
+  animation: amination1 2s;
+}
+
+.year_contian h2{
+  background-color: #ff014f;
+  border-radius: 10px;
+  font-size: 11px;
+  color: white;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 3px;
+}
+.role{
+  color:black;
+}
+.sticky {
+  position: fixed;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  top: 0;
+   width: 100%;
+   transition: 0.5s ease-in;
+   box-shadow: 0 0 10px #0009;
+   z-index: 1;
+   animation: amination2 2s;
+  }
+  @keyframes amination2 {
+    from{
+      margin-top: -40px;
+      
+  
+    }
+    to{
+     margin-top: 0;
+    
+    }
+    
+  }
+  @-webkit-keyframes amination1 {
+    from{
+      margin-top: 40px;
+    
+    }
+    to{
+     margin-top: 0px;
+    }
+    
+  }
+
+  
