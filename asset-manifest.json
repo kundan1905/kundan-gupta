@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/kundan-gupta/static/css/main.642ef68e.css",
-    "main.js": "/kundan-gupta/static/js/main.06c200c8.js",
+    "main.css": "/kundan-gupta/static/css/main.d35f6ef9.css",
+    "main.js": "/kundan-gupta/static/js/main.39c1ccd1.js",
     "static/js/787.3ddf1f1c.chunk.js": "/kundan-gupta/static/js/787.3ddf1f1c.chunk.js",
     "static/media/me.jpg": "/kundan-gupta/static/media/me.dc74c982c6a2d155a3fb.jpg",
+    "static/media/digisoultech.jpg": "/kundan-gupta/static/media/digisoultech.65cdacad609630b61969.jpg",
+    "static/media/st.xavier college.jpg": "/kundan-gupta/static/media/st.xavier college.6aee1398016fbe98afce.jpg",
     "index.html": "/kundan-gupta/index.html",
-    "main.642ef68e.css.map": "/kundan-gupta/static/css/main.642ef68e.css.map",
-    "main.06c200c8.js.map": "/kundan-gupta/static/js/main.06c200c8.js.map",
+    "main.d35f6ef9.css.map": "/kundan-gupta/static/css/main.d35f6ef9.css.map",
+    "main.39c1ccd1.js.map": "/kundan-gupta/static/js/main.39c1ccd1.js.map",
     "787.3ddf1f1c.chunk.js.map": "/kundan-gupta/static/js/787.3ddf1f1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.642ef68e.css",
-    "static/js/main.06c200c8.js"
+    "static/css/main.d35f6ef9.css",
+    "static/js/main.39c1ccd1.js"
   ]
 }
